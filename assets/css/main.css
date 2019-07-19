@@ -152,8 +152,8 @@ input, select, textarea {
 	}
 
 	a {
-		color: #d52349;
-		text-decoration: underline;
+		color: #22090f;
+		text-decoration: none;
 	}
 
 		a:hover {
@@ -1618,12 +1618,12 @@ input, select, textarea {
 		border: solid;
 		border-color: #6ebbc5;
 		border-radius: 5px;
-		background: #d5234900;
+		background: transparent;
 		color: rgb(83, 82, 82);
 		font-weight: 700;
 		outline: 0;
 		font-size: 1.1em;
-		padding: 0.3em 1.3em 0.3em 1.3em;
+		padding: 0.3em 1em 0.3em 1em;
 		text-align: center;
 		-moz-transition: background-color .25s ease-in-out;
 		-webkit-transition: background-color .25s ease-in-out;
@@ -1656,7 +1656,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #252122;
+			background: transparent;
 		}
 
 			input[type="button"].alt:hover,
@@ -2354,18 +2354,20 @@ input, select, textarea {
 			color: inherit;
 			font-size: 0.8em;
 			height: 8.5em;
-			left: 29%;
+		/*	left: 29%;*/
 			letter-spacing: 0.225em;
-			margin-left: -8.5em;
+			margin-left: 0em;
 			opacity: 1;
 			outline: 0;
-			padding-left: 0.225em;
+		/*	padding-left: 3.225em;*/
 			position: absolute; /*for alt header remove this style*/
+			/*position: sticky;*/
 			text-align: center;
 			text-transform: uppercase;
-			width: 16em;
+			width: 70%;
 			z-index: 1;
-			
+		/*	display: flex;*/
+			/*width: calc(100% -40px);*/
 			
 		}
 
@@ -2374,8 +2376,7 @@ input, select, textarea {
 				background-repeat: no-repeat;
 				background-size: contain;
 				bottom: 4em;
-				content: '';
-				
+				content: '';	
 				height: 1.5em;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
@@ -3168,32 +3169,39 @@ input, select, textarea {
 		color: rgb(255, 255, 255);
 		text-align: center;
 		padding: 4em 0 4em 0;
-		background-position: center center;
-		background-size: auto 100%;
+		background-position: left;
+		background-size: 50%;
 		background-repeat: no-repeat;
 		
 		
 	}
 
-	/* Promo */
+	/*Quote section Promo */
 
 	#promo {
 		background: rgba(40, 41, 41, 0.979);
 		border: solid 2px rgb(48, 45, 45);
 		border-radius: 0.3em;
-		padding: 2.5em 3em 2.5em 3em;
+		padding: 2.5em 22em 2.5em 14em;
 		display: inline-block;
-		position: relative;
+		position: flex;
 		z-index: 1;
+	/*	width: calc(100% - 70px);*/
+	margin-left: 35%;
+	
+	
 	}
 
 		#promo h2 {
-			color: white;
-			display: inline-block;
+			color: rgb(255, 255, 255);
+			display: flex;
 			margin-right: 1em;
-			font-size: 24px;
+			font-size: 30px;
+			text-align: left;
+			font-weight: 700;
 		}
 
+		/*check to see if i need or not promo button*/
 		#promo .button {
 			background: #fff;
 			border-color: rgba(255, 255, 255, 0.1);
@@ -3207,6 +3215,7 @@ input, select, textarea {
 			color: #fff;
 		}
 
+		/*Icons on header section*/
 		.icon-button{
 				background: transparent;
 				border: none;
@@ -3223,9 +3232,81 @@ input, select, textarea {
 				transition: background-color .25s ease-in-out;
  		}
 
-
-	
 		.icon-button:active {
 			border: none;
 			color:#ee8f6a;
 		}
+
+/*For quote section */
+		.text {
+			position: absolute;
+			width: 100%;
+			left: 50%;
+			margin-left: 15px;
+			height: 50px;
+			top: 50%;
+			margin-top: -20px;
+		  }
+		  /*
+		  p {
+			display: inline-block;
+			vertical-align: top;
+			margin: 0;
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: 800;
+		
+		  }
+		*/
+		  .word {
+			position: absolute;
+			width: 350px;
+			opacity: 0;
+			display: flex;
+			font-size: 45px;
+			font-weight: 1000;
+			
+			
+		  }
+		  
+		  .letter {
+			
+			position: relative;
+			display: inline-block;
+			transform: translateZ(25px);
+			transform-origin: 50% 50% 25px;
+		  }
+		  
+		  .letter.out {
+			transform: rotateX(90deg);
+			transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+		  }
+		  
+		  .letter.behind {
+			transform: rotateX(-90deg);
+		  }
+		  
+		  .letter.in {
+			transform: rotateX(0deg);
+			transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+		  }
+		  
+		  .wisteria {
+			color: #ad9d44;
+		  }
+		  
+		  .belize {
+			color: #1677b8;
+		  }
+		  
+		  .pomegranate {
+			color: #c0392b;
+		  }
+		  
+		  .green {
+			color: #39bda2;
+		  }
+		  
+		  .midnight {
+			color: #ee8f6a;
+		  }
+		  
