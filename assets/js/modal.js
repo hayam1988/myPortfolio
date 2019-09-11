@@ -1,52 +1,98 @@
 
-
-
-
-
-
-
 // Modal one: chatbot
+
 var btn = document.getElementById("myBtn");
+
 var modal = document.getElementById("myModal");
 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
+
+
+
+
 
 
 // Modal two: daily budget app
+
 var btn1 = document.getElementById("myBtn1");
-var modal = document.getElementById("myModal1");
+
+var modal1 = document.getElementById("myModal1");
+
+
+// Modal three: daily budget app
+
+var btn2 = document.getElementById("myBtn2");
+
+var modal2 = document.getElementById("myModal2");
+
+// Modal four: Uw parking pal
+
+var btn3 = document.getElementById("myBtn3");
+
+var modal3 = document.getElementById("myModal3");
+
 
 btn1.onclick = function() {
-  modal.style.display = "block";
+
+  modal1.style.display = "block";
+
 }
 
 
-// Modal three: Stacks 
-var btn2 = document.getElementById("myBtn2");
-var modal = document.getElementById("myModal2");
+btn.onclick = function() {
+
+  modal.style.display = "block";
+
+}
 
 btn2.onclick = function() {
-  modal.style.display = "block";
+
+  modal2.style.display = "block";
+
+}
+
+btn3.onclick = function() {
+
+  modal3.style.display = "block";
+
 }
 
 var span = document.getElementsByClassName("close")[0];
-
-
-
-
-
-
-
-
+var span = document.getElementsByClassName("close1")[0];
+var span = document.getElementsByClassName("close2")[0];
+var span = document.getElementsByClassName("close3")[0];
 span.onclick = function() {
+
   modal.style.display = "none";
+
 }
 
 
+span.onclick = function() {
+
+  modal1.style.display = "none";
+
+}
+
+span.onclick = function() {
+
+  modal2.style.display = "none";
+
+}
+
+
+span.onclick = function() {
+
+  modal3.style.display = "none";
+
+}
 window.onclick = function(event) {
-  if (event.target == modal) {
+
+  if (event.target == modal || event.target == modal1 || event.target == modal2 || event.target == modal3 ) {
+
     modal.style.display = 'none';
+    modal1.style.display = 'none';
+    modal2.style.display = 'none';
+    modal3.style.display = 'none';
   }
+
 }

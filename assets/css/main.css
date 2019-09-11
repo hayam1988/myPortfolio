@@ -108,7 +108,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #252122;
-		font-weight: 400;
+		font-weight: 700;
 	}
 
 	i, em {
@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.45em;
 	}
 
 	h4 {
@@ -3359,7 +3359,8 @@ input, select, textarea {
   }
 
   .modal-header {
-	padding: 25px 16px;
+	/*padding: 25px 16px;*/
+	padding: 0px 0px;
 	background-color: rgba(228, 246, 250, 0.99);
 	color: black;
 	height: 80px;
@@ -3381,7 +3382,7 @@ input, select, textarea {
   }
   
   /* The Close Button */
- .close {
+ .close,.close1,.close2 {
 	color: #aaaaaa;
 	float: right;
 	font-size: 20px;
@@ -3390,14 +3391,14 @@ input, select, textarea {
 	padding-top: 8px;
   }
   
-  .close:hover,
-  .close:focus {
+  .close:hover,.close1:hover, .close2:hover,
+  .close:focus,.close1:focus, .close2:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
   }
   
- 
+  
 
   /* Add Animation to modal */
 @-webkit-keyframes slideIn {
@@ -3420,7 +3421,7 @@ input, select, textarea {
 	to {opacity: 1}
   }
 
-  /* */
+  /*modal images */
   
   /* The grid: Four equal columns that floats next to each other */
 .column-alt {
@@ -3465,8 +3466,8 @@ input, select, textarea {
   .closebtn {
 	position: absolute;
 	top: 0px;
-	right: 51%;
-	color: white;
-	font-size: 35px;
+	right: 41%;
+	color: rgb(41, 40, 40);;
+	font-size: 30px;
 	cursor: pointer;
   }
