@@ -3453,6 +3453,38 @@ input, select, textarea {
 	display: none;
   }
   
+
+
+
+
+
+
+  /* The grid: Five equal columns that floats next to each other */
+.column-alt1 {
+	float: center;
+	width: 20%;
+	padding: 20px;
+  }
+  
+  /* Style the images inside the grid */
+  .column-alt1 img {
+	opacity: 0.8; 
+	cursor: pointer; 
+  }
+  
+ 
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container-alt1 {
+	position: relative;
+	display: none;
+  }
   /* Expanding image text */
   #imgtext {
 	position: absolute;
