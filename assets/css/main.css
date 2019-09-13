@@ -3382,7 +3382,7 @@ input, select, textarea {
   }
   
   /* The Close Button */
- .close,.close1,.close2,.close3 {
+ .close,.close1,.close2,.close3,.close4 {
 	color: #aaaaaa;
 	float: right;
 	font-size: 20px;
@@ -3391,8 +3391,8 @@ input, select, textarea {
 	padding-top: 8px;
   }
   
-  .close:hover,.close1:hover, .close2:hover,.close3:hover
-  .close:focus,.close1:focus, .close2:focus, .close3:focus {
+  .close:hover,.close1:hover, .close2:hover,.close3:hover, .close4:hover
+  .close:focus,.close1:focus, .close2:focus, .close3:focus, .close4:focus {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
@@ -3455,7 +3455,11 @@ input, select, textarea {
   
 
 
-
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container-alt1 {
+	position: relative;
+	display: none;
+  }
 
 
 
@@ -3464,6 +3468,14 @@ input, select, textarea {
 	float: center;
 	width: 20%;
 	padding: 20px;
+  }
+
+
+  /* The grid: three equal columns that floats next to each other */
+.column-alt2 {
+	float: center;
+	width: 28%;
+	padding: 15px;
   }
   
   /* Style the images inside the grid */
@@ -3480,11 +3492,7 @@ input, select, textarea {
 	clear: both;
   }
   
-  /* The expanding image container (positioning is needed to position the close button and the text) */
-  .container-alt1 {
-	position: relative;
-	display: none;
-  }
+
   /* Expanding image text */
   #imgtext {
 	position: absolute;

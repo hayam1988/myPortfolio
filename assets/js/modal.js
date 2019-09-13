@@ -6,11 +6,6 @@ var btn = document.getElementById("myBtn");
 var modal = document.getElementById("myModal");
 
 
-
-
-
-
-
 // Modal two: daily budget app
 
 var btn1 = document.getElementById("myBtn1");
@@ -29,6 +24,12 @@ var modal2 = document.getElementById("myModal2");
 var btn3 = document.getElementById("myBtn3");
 
 var modal3 = document.getElementById("myModal3");
+
+// Modal five: UWB Website redesign
+
+var btn4 = document.getElementById("myBtn4");
+
+var modal4 = document.getElementById("myModal4");
 
 
 btn1.onclick = function() {
@@ -56,10 +57,18 @@ btn3.onclick = function() {
 
 }
 
+btn4.onclick = function() {
+
+  modal4.style.display = "block";
+
+}
+
 var span = document.getElementsByClassName("close")[0];
 var span = document.getElementsByClassName("close1")[0];
 var span = document.getElementsByClassName("close2")[0];
 var span = document.getElementsByClassName("close3")[0];
+var span = document.getElementsByClassName("close4")[0];
+
 span.onclick = function() {
 
   modal.style.display = "none";
@@ -85,14 +94,21 @@ span.onclick = function() {
   modal3.style.display = "none";
 
 }
+
+span.onclick = function() {
+
+  modal4.style.display = "none";
+
+}
 window.onclick = function(event) {
 
-  if (event.target == modal || event.target == modal1 || event.target == modal2 || event.target == modal3 ) {
+  if (event.target == modal || event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 ) {
 
     modal.style.display = 'none';
     modal1.style.display = 'none';
     modal2.style.display = 'none';
     modal3.style.display = 'none';
+    modal4.style.display = 'none';
   }
 
 }
