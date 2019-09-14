@@ -3467,7 +3467,7 @@ input, select, textarea {
 .column-alt1 {
 	float: center;
 	width: 20%;
-	padding: 20px;
+	padding: 30px;
   }
 
 
@@ -3475,7 +3475,21 @@ input, select, textarea {
 .column-alt2 {
 	float: center;
 	width: 28%;
-	padding: 15px;
+	padding: 30px;
+  }
+
+    /* The grid: two equal columns that floats next to each other */
+.column-alt3 {
+	float: center;
+	width: 40%;
+	padding: 30px;
+  }
+
+      /* The grid: 1 equal columns that floats next to each other */
+.column-alt4 {
+	float: center;
+	width: 55%;
+	padding: 30px;
   }
   
   /* Style the images inside the grid */
