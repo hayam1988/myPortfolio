@@ -1447,7 +1447,7 @@ input, select, textarea {
 
 	form label {
 		display: block;
-		color: #252122;
+		color: #dddddd;
 		font-weight: 400;
 		margin: 0 0 0.5em 0;
 	}
@@ -1661,7 +1661,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: transparent;
+			background: white;
 		}
 
 			input[type="button"].alt:hover,
@@ -1800,7 +1800,7 @@ input, select, textarea {
 		ul.contact li {
 			position: relative;
 			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 7em;
+			padding: 1.45em 0 0em 7em;
 		}
 
 			ul.contact li h3 {
@@ -1956,19 +1956,19 @@ input, select, textarea {
 						background: #3dbaf4;
 					}
 
-				ul.social li a.fa-dribbble {
+				ul.social li a.fa-github-square {
 					background: #c4376b;
 				}
 
-					ul.social li a.fa-dribbble:hover {
+					ul.social li a.fa-github-square:hover {
 						background: #d4477b;
 					}
 
-				ul.social li a.fa-linkedin {
+				ul.social li a.fa-linkedin-in {
 					background: #006599;
 				}
 
-					ul.social li a.fa-linkedin:hover {
+					ul.social li a.fa-linkedin-in:hover {
 						background: #1075a9;
 					}
 
@@ -2092,6 +2092,8 @@ input, select, textarea {
 			letter-spacing: -0.035em;
 			line-height: 1;
 		}
+
+	
 
 /* Nav */
 
@@ -2593,6 +2595,14 @@ input, select, textarea {
 				font-size: 1.75em;
 			}
 
+			#footer-alt h1 {
+				color: #ebebeb;
+				background:  rgba(255, 255, 255, 0);
+				font-weight: 900;
+				font-size: 2.5em;
+				letter-spacing: -0.035em;
+				line-height: 1;
+			}
 /* Copyright */
 
 	#copyright {
@@ -3198,7 +3208,7 @@ input, select, textarea {
 		position: flex;
 		z-index: 1;
 	/*	width: calc(100% - 70px);*/
-		margin-left: 35%;
+		margin-left: 31%;
 	
 	
 	}
@@ -3209,7 +3219,7 @@ input, select, textarea {
 			margin-right: 1em;
 			font-size: 30px;
 			text-align: left;
-			font-weight: 700;
+			font-weight: 500;
 		}
 
 		/*check to see if i need or not promo button*/
@@ -3253,7 +3263,7 @@ input, select, textarea {
 			position: absolute;
 			width: 100%;
 			left: 50%;
-			margin-left: 15px;
+			margin-left: 2px;
 			height: 50px;
 			top: 50%;
 			margin-top: -20px;
@@ -3274,7 +3284,7 @@ input, select, textarea {
 			opacity: 0;
 			display: flex;
 			font-size: 45px;
-			font-weight: 1000;
+			font-weight: 900;
 			
 			
 		  }
@@ -3330,7 +3340,7 @@ input, select, textarea {
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 1; /* Sit on top */
+	z-index: 2; /* Sit on top */
 	padding-top: 100px; /* Location of the box */
 	left: 0;
 	top: 0;
@@ -3382,7 +3392,7 @@ input, select, textarea {
   }
   
   /* The Close Button */
- .close,.close1,.close2,.close3,.close4 {
+ .close,.close1,.close2,.close3,.close4,.close5 {
 	color: #aaaaaa;
 	float: right;
 	font-size: 20px;
@@ -3391,8 +3401,8 @@ input, select, textarea {
 	padding-top: 8px;
   }
   
-  .close:hover,.close1:hover, .close2:hover,.close3:hover, .close4:hover
-  .close:focus,.close1:focus, .close2:focus, .close3:focus, .close4:focus {
+  .close:hover,.close1:hover, .close2:hover,.close3:hover, .close4:hover, .close5:hover
+  .close:focus,.close1:focus, .close2:focus, .close3:focus, .close4:focus, .close5:focus  {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
@@ -3481,7 +3491,7 @@ input, select, textarea {
     /* The grid: two equal columns that floats next to each other */
 .column-alt3 {
 	float: center;
-	width: 40%;
+	width: 45%;
 	padding: 30px;
   }
 
