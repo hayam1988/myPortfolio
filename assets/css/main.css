@@ -1972,11 +1972,11 @@ input, select, textarea {
 						background: #1075a9;
 					}
 
-				ul.social li a.fa-tumblr {
+				ul.social li a.fa-envelope {
 					background: #2b4661;
 				}
 
-					ul.social li a.fa-tumblr:hover {
+					ul.social li a.fa-envelope:hover {
 						background: #3b5671;
 					}
 
@@ -2005,7 +2005,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Communication';
 			font-weight: 400;
 		}
 
@@ -2014,7 +2014,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Communication' ;
 		}
 
 		.icon:before {
