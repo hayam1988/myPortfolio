@@ -2727,6 +2727,13 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 980px) {
+		/*images*/
+
+		.column-alt4 {
+			float: center;
+			width: 80%;
+		/*	padding: 30px;*/
+		  }
 
 		/* Basic */
 
@@ -2979,7 +2986,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 11pt;
+				font-size: 9pt;
 			}
 
 			h2, h3, h4, h5, h6 {
@@ -3110,6 +3117,8 @@ input, select, textarea {
 					border-left: solid 4em transparent;
 					border-right: solid 4em transparent;
 				}
+
+
 
 		/* Header */
 
@@ -3465,18 +3474,13 @@ input, select, textarea {
   
 
 
-  /* The expanding image container (positioning is needed to position the close button and the text) */
-  .container-alt1 {
-	position: relative;
-	display: none;
-  }
-
 
 
   /* The grid: Five equal columns that floats next to each other */
 .column-alt1 {
 	float: center;
-	width: 20%;
+	/*width: 20%;*/
+	width: calc(100% - 80%);
 	padding: 30px;
   }
 
@@ -3484,22 +3488,25 @@ input, select, textarea {
   /* The grid: three equal columns that floats next to each other */
 .column-alt2 {
 	float: center;
-	width: 28%;
+	/*width: 28%;*/
+	width: calc(100% - 78%);
 	padding: 30px;
   }
 
     /* The grid: two equal columns that floats next to each other */
 .column-alt3 {
 	float: center;
-	width: 45%;
+	/*width: 45%;*/
+	width: calc(100% - 55%);
 	padding: 30px;
   }
 
       /* The grid: 1 equal columns that floats next to each other */
 .column-alt4 {
 	float: center;
-	width: 55%;
-	padding: 30px;
+	width: calc(100% - 50%);
+/*	width: 50%;*/
+/*	padding: 30px;*/
   }
   
   /* Style the images inside the grid */
