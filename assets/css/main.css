@@ -1393,6 +1393,7 @@ input, select, textarea {
 				.row {
 					margin-top: -20px;
 					margin-left: -20px;
+					
 				}
 
 					.row > * {
@@ -2727,13 +2728,9 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 980px) {
-		/*images*/
+	
 
-		.column-alt4 {
-			float: center;
-			width: 80%;
-		/*	padding: 30px;*/
-		  }
+		
 
 		/* Basic */
 
@@ -3445,8 +3442,10 @@ input, select, textarea {
   /* The grid: Four equal columns that floats next to each other */
 .column-alt {
 	float: left;
-	width: 25%;
-	padding: 20px;
+	/*width: 25%;*/
+	width: calc(100% - 75%);
+	/*padding: 30px;*/
+	
   }
   
   /* Style the images inside the grid */
@@ -3482,6 +3481,7 @@ input, select, textarea {
 	/*width: 20%;*/
 	width: calc(100% - 80%);
 	padding: 30px;
+	
   }
 
 
@@ -3491,6 +3491,7 @@ input, select, textarea {
 	/*width: 28%;*/
 	width: calc(100% - 78%);
 	padding: 30px;
+	
   }
 
     /* The grid: two equal columns that floats next to each other */
@@ -3498,7 +3499,8 @@ input, select, textarea {
 	float: center;
 	/*width: 45%;*/
 	width: calc(100% - 55%);
-	padding: 30px;
+	/*padding: 30px;*/
+
   }
 
       /* The grid: 1 equal columns that floats next to each other */
@@ -3506,7 +3508,17 @@ input, select, textarea {
 	float: center;
 	width: calc(100% - 50%);
 /*	width: 50%;*/
-/*	padding: 30px;*/
+	/*padding: 30px;*/
+	
+	
+  }
+
+  .column-alt5 {
+	float: center;
+	width: calc(100% - 50%);
+/*	width: 50%;*/
+	/*padding: 30px;*/
+	margin: auto;
   }
   
   /* Style the images inside the grid */
