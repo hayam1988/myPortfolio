@@ -87,7 +87,7 @@ span.onclick = function() {
 
   modal.style.display = "none";
 
-}
+}   
 
 
 span1.onclick = function() {

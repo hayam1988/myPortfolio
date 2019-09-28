@@ -215,9 +215,8 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: calc(100% - 40px);
+				width: calc(100% - 10px);
 			}
-
 		}
 
 /* Row */
@@ -2990,6 +2989,17 @@ input, select, textarea {
 				font-size: 1.25em;
 			}
 
+			h3{
+
+				font-size: 1.5em;
+			}
+
+			ul li {
+				color: black;
+
+			}
+
+			
 		/* Button */
 
 			input[type="button"].large,
