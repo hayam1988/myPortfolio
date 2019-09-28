@@ -3214,7 +3214,9 @@ input, select, textarea {
 		position: flex;
 		z-index: 1;
 	/*	width: calc(100% - 70px);*/
-		margin-left: 31%;
+	/*	margin-left: 31%;*/ 
+	/*	margin-left: 0%;*/
+		margin: auto 0;
 	
 	
 	}
@@ -3222,25 +3224,13 @@ input, select, textarea {
 		#promo h2 {
 			color: rgb(255, 255, 255);
 			display: flex;
-			margin-right: 1em;
+		/*	margin-right: 1em;
 			font-size: 30px;
 			text-align: left;
-			font-weight: 500;
+			font-weight: 500;*/
 		}
 
-		/*check to see if i need or not promo button*/
-		#promo .button {
-			background: #fff;
-			border-color: rgba(255, 255, 255, 0.1);
-			color: #27636B;
-			font-size: 1.25em;
-		}
 
-		#promo .button:hover {
-		    border-color: rgba(255, 255, 255, 0.75);
-			background-color: rgba(255, 255, 255, 0.15);
-			color: #fff;
-		}
 
 		/*Icons on header section*/
 		.icon-button{
@@ -3267,9 +3257,12 @@ input, select, textarea {
 /*For quote section */
 		.text {
 			position: absolute;
-			width: 100%;
-			left: 50%;
-			margin-left: 2px;
+		/*	width: 100%;*/
+			/*width: calc(100% - 50%);*/
+			/*left: 50%;*/
+		/*	left :40%;*/
+			margin: auto -7% ;
+			/*margin-left: 2px;*/
 			height: 50px;
 			top: 50%;
 			margin-top: -20px;
@@ -3480,7 +3473,7 @@ input, select, textarea {
 	float: center;
 	/*width: 20%;*/
 	width: calc(100% - 80%);
-	padding: 30px;
+	/*padding: 30px;*/
 	
   }
 
@@ -3490,7 +3483,7 @@ input, select, textarea {
 	float: center;
 	/*width: 28%;*/
 	width: calc(100% - 78%);
-	padding: 30px;
+	/*padding: 30px;*/
 	
   }
 

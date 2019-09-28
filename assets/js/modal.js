@@ -51,6 +51,7 @@ btn.onclick = function() {
 
 }
 
+
 btn2.onclick = function() {
 
   modal2.style.display = "block";
@@ -76,11 +77,11 @@ btn5.onclick = function() {
 }
 
 var span = document.getElementsByClassName("close")[0];
-var span = document.getElementsByClassName("close1")[0];
-var span = document.getElementsByClassName("close2")[0];
-var span = document.getElementsByClassName("close3")[0];
-var span = document.getElementsByClassName("close4")[0];
-var span = document.getElementsByClassName("close5")[0];
+var span1 = document.getElementsByClassName("close1")[0];
+var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
+var span4 = document.getElementsByClassName("close4")[0];
+var span5 = document.getElementsByClassName("close5")[0];
 
 span.onclick = function() {
 
@@ -89,32 +90,31 @@ span.onclick = function() {
 }
 
 
-span.onclick = function() {
+span1.onclick = function() {
 
   modal1.style.display = "none";
 
 }
 
-span.onclick = function() {
+span2.onclick = function() {
 
   modal2.style.display = "none";
 
 }
 
-
-span.onclick = function() {
+span3.onclick = function() {
 
   modal3.style.display = "none";
 
 }
 
-span.onclick = function() {
+span4.onclick = function() {
 
   modal4.style.display = "none";
 
 }
 
-span.onclick = function() {
+span5.onclick = function() {
 
   modal5.style.display = "none";
 
@@ -132,3 +132,6 @@ window.onclick = function(event) {
   }
 
 }
+
+
+
