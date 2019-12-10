@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #252122;
+		
 		background-image: url("images/bg02.png");
 	}
 
@@ -1455,7 +1455,7 @@ input, select, textarea {
 
 	form label {
 		display: block;
-		color: #dddddd;
+		color: #111010;
 		font-weight: 400;
 		margin: 0 0 0.5em 0;
 	}
@@ -1630,7 +1630,7 @@ input, select, textarea {
 		text-decoration: none;
 		cursor: pointer;
 		border: solid;
-		border-color: #6ebbc5;
+		border-color: #596565;
 		border-radius: 5px;
 		background: transparent;
 		color: rgb(83, 82, 82);
@@ -1653,7 +1653,7 @@ input, select, textarea {
 			/*background: #6ebbc5; */
 			color: white; 
 			border: solid;
-			background: rgba(96, 169, 172, 0.7);
+			background: rgba(39, 41, 41, 0.7);
 			
 		}
 
@@ -1662,7 +1662,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background: #ee8f6a;
+			background:rgb(211, 208, 208);
 		}
 
 		input[type="button"].alt,
@@ -1678,7 +1678,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #353132;
+				background:rgba(39, 41, 41, 0.7);
 			}
 
 			input[type="button"].alt:active,
@@ -1686,7 +1686,7 @@ input, select, textarea {
 			input[type="reset"].alt:active,
 			button.alt:active,
 			.button.alt:active {
-				background: #151112;
+				background:  rgb(211, 208, 208);
 			}
 
 		input[type="button"].icon:before,
@@ -2037,7 +2037,7 @@ input, select, textarea {
 		.icon.featured {
 			position: relative;
 			display: inline-block;
-			background-color: #dd5e47;
+			background-color:  #ddc8c1;
 			width: 9em;
 			padding: 1.75em 0 0.75em 0;
 			border-top-left-radius: 5px;
@@ -2049,7 +2049,7 @@ input, select, textarea {
 			.icon.featured:before {
 				font-size: 4.5em;
 				line-height: 1em;
-				color: #fff;
+				color:rgb(252, 249, 249);
 			}
 
 			.icon.featured:after {
@@ -2057,25 +2057,25 @@ input, select, textarea {
 				position: absolute;
 				bottom: -1.95em;
 				left: 0;
-				border-top: solid 2em #dd5e47;
+				border-top: solid 2em #ddc8c1;
 				border-left: solid 4.5em transparent;
 				border-right: solid 4.5em transparent;
 			}
 
 			.icon.featured.alt {
-				background-color: #6ebbc5;
+				background-color: #3b3d3d;
 			}
 
 				.icon.featured.alt:after {
-					border-top-color: #6ebbc5;
+					border-top-color: #3b3d3d;
 				}
 
 			.icon.featured.alt2 {
-				background-color: #604b69;
+				background-color: #8f7c98;
 			}
 
 				.icon.featured.alt2:after {
-					border-top-color: #604b69;
+					border-top-color: #8f7c98;
 				}
 
 /* Page Wrapper */
@@ -2250,14 +2250,15 @@ input, select, textarea {
 			align-items: end; */
 
 			/* Alt banner style */
-			background-color: rgba(34, 30, 31, 0.95);
+			background-color: rgba(34, 30, 31, 0.85);
 			padding: 12.5em 3em;
-			padding-bottom: 2em;
+			padding-bottom: 1em;
 			flex-direction: column-reverse; 
 			border-radius: 5px;
 			display: flex;
 			display: absolute;
 			align-items: end; 
+		
 			
 		}
 
@@ -2287,18 +2288,21 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		background:/* #CCE8F4*/ rgba(228, 246, 250, 0.99) url("../../images/header3.jpg");
-		background-position: center left; /* alt header*/
+		background:/* #CCE8F4 */rgba(228, 246, 250, 0.99) url("../../images/palm.tif");
+		background-position: center right; /* alt header*/
 		/*background-position: center center;*/
-		/*background-size: auto 150%;*/
+		background-size: auto 100%;
 		/*background-size: auto 35rem;*/
 		/*background-size: auto 33rem;*/
 		/*background-repeat: no-repeat;*/
 		padding: 8em 0;
 		margin: 4em 0 0 0;
+	
+
 		
 	}
-		
+
+	
 
 		#banner h2 {
 			-moz-transform: scale(1);
@@ -2315,6 +2319,7 @@ input, select, textarea {
 			padding: .35em 2.0em;
 			position: relative;
 			z-index: 1;
+			 	
 			
 		}
 
@@ -2563,6 +2568,7 @@ input, select, textarea {
 		position: relative;
 		color: #858484;
 		padding: 4em 0;
+		background:  rgba(42, 33, 35, 0.735);
 	}
 
 		#footer:before {
@@ -2578,11 +2584,11 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #c5c4c4;
+			color: #323076;
 		}
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer strong, #footer b {
-			color: #fff;
+			color: rgb(240, 240, 240);
 		}
 
 			#footer h2 a, #footer h3 a, #footer h4 a, #footer h5 a, #footer h6 a, #footer strong a, #footer b a {
@@ -2593,7 +2599,7 @@ input, select, textarea {
 		#footer ul.dates li,
 		#footer ul.divided li {
 			border-top-color: #353434;
-			border-top-color: rgba(255, 255, 255, 0.05);
+			border-top-color: rgba(255, 255, 255, 0.2);
 		}
 
 		#footer header {
@@ -2605,7 +2611,7 @@ input, select, textarea {
 			}
 
 			#footer-alt h1 {
-				color: #ebebeb;
+				color: #ffffff;
 				background:  rgba(255, 255, 255, 0);
 				font-weight: 900;
 				font-size: 2.5em;
@@ -3207,17 +3213,17 @@ input, select, textarea {
 		position: relative;
 		/*background: url(/images/overlay.png), url(/images/header3.jpg);*/
 		/*background-color: #c2977a;*/
-		
-		background:/* #CCE8F4*/ rgb(228, 246, 250) url("../../images/header3.jpg");
+		background-color: rgba(34, 30, 31, 0.45);
+	/*	background:/* #CCE8F4 rgba(34, 30, 31, 0.85) url("../../images/palm.JPG");*/
 		/*background-color: #CCE8F4;*/
 		/*background-color: rgb(134, 211, 211);*/
 		/*background-position: top left, center center;*/
-		color: rgb(255, 255, 255);
+		color: rgb(0, 0, 0);
 		text-align: center;
-		padding: 4em 0 4em 0;
+		padding: 1em 0 1em 0;
 		background-position: left;
-		background-size: 50%;
-		background-repeat: no-repeat;
+		background-size: auto 100%;
+		/*background-repeat: no-repeat;*/
 		
 		
 	}
@@ -3225,23 +3231,30 @@ input, select, textarea {
 	/*Quote section Promo */
 
 	#promo {
-		background: rgba(40, 41, 41, 0.979);
-		border: solid 2px rgb(48, 45, 45);
+	
+		border: solid 1px rgb(48, 45, 45);
 		border-radius: 0.3em;
-		padding: 3.5em 22em 2.5em 14em;
+		background-size: 150%;
 		display: inline-block;
 		position: flex;
 		z-index: 1;
-	/*	width: calc(100% - 70px);*/
+		width: 100%;
 	/*	margin-left: 31%;*/ 
 	/*	margin-left: 0%;*/
 		margin: auto 0;
 	
 	
 	}
+	#overlay{
+		background: rgba(34, 30, 31, 0.8);
+		z-index: 2;
+        padding: 4%;
+		
+
+	}
 
 		#promo h2 {
-			color: rgb(255, 255, 255);
+			color: rgb(243, 229, 229);
 			display: flex;
 		/*	margin-right: 1em;
 			font-size: 30px;
@@ -3358,13 +3371,13 @@ input, select, textarea {
 .modal {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
-	z-index: 2; /* Sit on top */
+	z-index: 3; /* Sit on top */
 	padding-top: 100px; /* Location of the box */
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
 	height: 100%; /* Full height */
-	overflow: auto; /* Enable scroll if needed */
+	overflow-y: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   	-webkit-animation-name: fadeIn; /* Fade in the background */
@@ -3389,18 +3402,13 @@ input, select, textarea {
   .modal-header {
 	/*padding: 25px 16px;*/
 	padding: 0px 0px;
-	background-color: rgba(228, 246, 250, 0.99);
-	color: black;
+	background-color: rgb(213, 211, 214);
+	color: white;
 	height: 80px;
 	border: solid 2px rgba(243, 242, 242, 0.863);
 	
 }
 
-
-
-	
-  
-  
   .modal-body {padding: 2px 40px;}
   
   .modal-footer {
@@ -3566,3 +3574,105 @@ input, select, textarea {
 	font-size: 30px;
 	cursor: pointer;
   }
+
+
+
+/* Add animation to title photo */
+
+#bg { 
+	-moz-animation: bg 60s linear infinite;
+	-webkit-animation: bg 60s linear infinite;
+	-ms-animation: bg 60s linear infinite;
+	animation: bg 60s linear infinite;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-transform: translate3d(0,0,0);
+	-webkit-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+/* Set your background with this */
+
+/*	background: #348cb2 url("images/bg.jpg") bottom left;*/
+	background: whitesmoke url("../../images/overlay.png") top;
+
+
+	background-repeat: repeat-x;
+	height: 100%;
+	left: 0;
+	opacity: 1;
+	position: fixed;
+	top: 0;
+	transform: scaleX(-1);
+}
+
+@-moz-keyframes bg {
+	0% {
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	100% {
+		-moz-transform: translate3d(-2250px,0,0);
+		-webkit-transform: translate3d(-2250px,0,0);
+		-ms-transform: translate3d(-2250px,0,0);
+		transform: translate3d(-2250px,0,0);
+	}
+}
+
+@-webkit-keyframes bg {
+	0% {
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	100% {
+		-moz-transform: translate3d(-2250px,0,0);
+		-webkit-transform: translate3d(-2250px,0,0);
+		-ms-transform: translate3d(-2250px,0,0);
+		transform: translate3d(-2250px,0,0);
+	}
+}
+
+@-ms-keyframes bg {
+	0% {
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	100% {
+		-moz-transform: translate3d(-2250px,0,0);
+		-webkit-transform: translate3d(-2250px,0,0);
+		-ms-transform: translate3d(-2250px,0,0);
+		transform: translate3d(-2250px,0,0);
+	}
+}
+
+@keyframes bg {
+	0% {
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	100% {
+		-moz-transform: translate3d(-2250px,0,0);
+		-webkit-transform: translate3d(-2250px,0,0);
+		-ms-transform: translate3d(-2250px,0,0);
+		transform: translate3d(-2250px,0,0);
+	}
+}
+
+#bg {
+	background-size: 1700px auto;
+	width: 7050px;
+	
+}

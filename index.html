@@ -21,16 +21,9 @@ fa fa-linkedin
 fa fa-linkedin-square
 -->
 
-<!-- Changes, changes widths in modals to percentages possible remove hieght better responsivness, figure out expended thumbprint images, modals (x) to close on some modals does not work-->
 
 <!DOCTYPE HTML>
-<!--
-	installed live server to show real time changes: have to click go live 
-	https://www.bing.com/videos/search?q=github+portfolio+website&&view=detail&mid=9E5C57977C125CA10B6E9E5C57977C125CA10B6E&&FORM=VRDGAR
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 
 <head>
@@ -44,6 +37,8 @@ fa fa-linkedin-square
 
 <body class="homepage is-preload">
 	<div id="page-wrapper">
+	<div id="bg"></div>
+	<div id="overlay"></div>
 
 		<!-- Header -->
 		<section id="header">
@@ -218,7 +213,7 @@ fa fa-linkedin-square
 									</div>
 
 									<h3><b>In my spare time...</b></br> When I'm not in school, I enjoy outdoor
-										activities, traveling, listening to podcasts and audio books and playing piano.</h3>
+										activities, traveling, listening to podcasts/audio books and playing piano.</h3>
 
 									<div class="column-alt5">
 										<img src="images/sparetime-transparent2.png" alt="my sparetime"
@@ -228,7 +223,7 @@ fa fa-linkedin-square
 								<div class="modal-footer"
 									style=" margin-left: auto; margin-right: auto; text-align: center;">
 									<ul class="actions">
-										<li><a target=_blank href="images/Portfolio resume .pdf" class="button alt"><i
+										<li><a target=_blank href="images/Portfolio resume.pdf" class="button alt"><i
 													class=" "></i>My Resume</a></li>
 									</ul>
 
@@ -295,8 +290,11 @@ fa fa-linkedin-square
 			</section>
 		</section>
 		<!--Quote-->
+		
 		<div id="promo-wrapper">
+			
 			<section id="promo">
+					<div id = "overlay">
 
 				<i class="text">
 					<h2>In the middle of every difficulty lies</h2>
@@ -314,7 +312,9 @@ fa fa-linkedin-square
 				</i>
 
 			</section>
+			
 		</div>
+	</div>
 		<!-- Main -->
 		<section id="main">
 			<div class="container">
