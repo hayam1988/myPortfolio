@@ -2288,21 +2288,23 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		background:/* #CCE8F4 */rgba(228, 246, 250, 0.99) url("../../images/palm.tif");
+		background:/* #CCE8F4 rgba(247, 247, 247, 0.99)*/ url("../../images/bg23.jpg");
 		background-position: center right; /* alt header*/
 		/*background-position: center center;*/
 		background-size: auto 100%;
 		/*background-size: auto 35rem;*/
 		/*background-size: auto 33rem;*/
-		/*background-repeat: no-repeat;*/
+		/*=background-repeat: no-repeat;*/
 		padding: 8em 0;
 		margin: 4em 0 0 0;
+	/* 	background: #ECE9E6;  fallback for old browsers 
+		background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);   Chrome 10-25, Safari 5.1-6 
+		background: linear-gradient(to right, #FFFFFF, #ECE9E6);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	
 
 		
 	}
 
-	
 
 		#banner h2 {
 			-moz-transform: scale(1);
@@ -2566,9 +2568,9 @@ input, select, textarea {
 
 	#footer {
 		position: relative;
-		color: #858484;
+		background-color: rgba(34, 30, 31, 0.83);
 		padding: 4em 0;
-		background:  rgba(42, 33, 35, 0.735);
+		
 	}
 
 		#footer:before {
@@ -2787,7 +2789,7 @@ input, select, textarea {
 
 				#intro section {
 					position: relative;
-					border-top: solid 1px #dfdfdf;
+					border-top: solid 1px #f7f4f4;
 					margin: 0;
 					padding: 40px 0 0 0;
 				}
@@ -3246,7 +3248,7 @@ input, select, textarea {
 	
 	}
 	#overlay{
-		background: rgba(34, 30, 31, 0.8);
+		background: rgba(34, 30, 31, 0.884);
 		z-index: 2;
         padding: 4%;
 		
@@ -3268,7 +3270,8 @@ input, select, textarea {
 		.icon-button{
 				background: transparent;
 				border: none;
-				color: rgba(241, 176, 138, 0.582)
+				color: rgba(230, 207, 199, 0.8);
+
 		}
 
 		.icon-button:hover{
@@ -3379,7 +3382,7 @@ input, select, textarea {
 	height: 100%; /* Full height */
 	overflow-y: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
   	-webkit-animation-name: fadeIn; /* Fade in the background */
   	-webkit-animation-duration: 0.4s;
   	animation-name: fadeIn;
@@ -3402,10 +3405,10 @@ input, select, textarea {
   .modal-header {
 	/*padding: 25px 16px;*/
 	padding: 0px 0px;
-	background-color: rgb(213, 211, 214);
+	background-color: rgb(250, 250, 250);
 	color: white;
 	height: 80px;
-	border: solid 2px rgba(243, 242, 242, 0.863);
+	border: solid 2px rgba(211, 211, 211, 0.83);
 	
 }
 
@@ -3418,8 +3421,8 @@ input, select, textarea {
   }
   
   /* The Close Button */
- .close,.close1,.close2,.close3,.close4,.close5 {
-	color: #aaaaaa;
+ .close,.close1,.close2,.close3,.close4,.close5, .close6 {
+	color: #424141;
 	float: right;
 	font-size: 20px;
 	font-weight: bold;
@@ -3427,8 +3430,8 @@ input, select, textarea {
 	padding-top: 8px;
   }
   
-  .close:hover,.close1:hover, .close2:hover,.close3:hover, .close4:hover, .close5:hover
-  .close:focus,.close1:focus, .close2:focus, .close3:focus, .close4:focus, .close5:focus  {
+  .close:hover,.close1:hover, .close2:hover,.close3:hover, .close4:hover, .close5:hover, .close5:hover,
+  .close:focus,.close1:focus, .close2:focus, .close3:focus, .close4:focus, .close5:focus, .close6:focus  {
 	color: #000;
 	text-decoration: none;
 	cursor: pointer;
@@ -3445,7 +3448,7 @@ input, select, textarea {
   @keyframes slideIn {
 	from {bottom: -300px; opacity: 0}
 	to {bottom: 0; opacity: 1}
-  }
+  }[]
   
   @-webkit-keyframes fadeIn {
 	from {opacity: 0} 
@@ -3491,9 +3494,8 @@ input, select, textarea {
 	display: none;
   }
   
-
-
-
+  
+  
 
   /* The grid: Five equal columns that floats next to each other */
 .column-alt1 {
@@ -3529,18 +3531,18 @@ input, select, textarea {
 	width: calc(100% - 50%);
 /*	width: 50%;*/
 	/*padding: 30px;*/
-	
-	
   }
 
+    /* The grid: 2 columns that floats next to each other modal image and caption*/
   .column-alt5 {
 	float: center;
-	width: calc(100% - 50%);
+	width: calc(100% - 23%);
 /*	width: 50%;*/
 	/*padding: 30px;*/
 	margin: auto;
   }
   
+
   /* Style the images inside the grid */
   .column-alt1 img {
 	opacity: 0.8; 
@@ -3561,7 +3563,16 @@ input, select, textarea {
 	position: absolute;
 	bottom: 15px;
 	left: 15px;
-	color: rgb(41, 40, 40);
+	color: rgb(71, 37, 37);
+	font-size: 20px;
+  }
+
+  #imgtext3 {
+	display: flex;
+	flex-direction: row;
+	bottom: 15px;
+	left: 15px;
+	color: rgb(71, 37, 37);
 	font-size: 20px;
   }
   
@@ -3569,8 +3580,8 @@ input, select, textarea {
   .closebtn {
 	position: absolute;
 	top: 0px;
-	right: 41%;
-	color: rgb(41, 40, 40);;
+	right: 0%;
+	color: rgb(51, 47, 47);;
 	font-size: 30px;
 	cursor: pointer;
   }
@@ -3594,8 +3605,10 @@ input, select, textarea {
 	transform: translate3d(0,0,0);
 /* Set your background with this */
 
-/*	background: #348cb2 url("images/bg.jpg") bottom left;*/
-	background: whitesmoke url("../../images/overlay.png") top;
+/*	background: #348cb2 url("images/bg.jpg") bottom left;
+	background:rgb(17, 14, 29) url("../../images/overlay.png") top;*/
+	background:white url("../../images/overlay.png") top;
+		
 
 
 	background-repeat: repeat-x;
@@ -3675,4 +3688,92 @@ input, select, textarea {
 	background-size: 1700px auto;
 	width: 7050px;
 	
+}
+
+/* images in moadal expand modal */
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modalImage {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+  /*overflow: auto;  Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modalImage-content {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 1000px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modalImage-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closeImage {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.closeImage:hover,
+.closeImage:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modalImage-content {
+        width: 100%;
+    }
 }

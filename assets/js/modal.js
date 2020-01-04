@@ -37,18 +37,20 @@ var btn5 = document.getElementById("myBtn5");
 
 var modal5 = document.getElementById("myModal5");
 
+// Husky Football
+var btn6 = document.getElementById("myBtn6");
 
-btn1.onclick = function() {
-
-  modal1.style.display = "block";
-
-}
-
+var modal6 = document.getElementById("myModal6");
 
 btn.onclick = function() {
 
   modal.style.display = "block";
 
+}
+
+btn1.onclick = function() {
+
+  modal1.style.display = "block";
 }
 
 
@@ -76,12 +78,20 @@ btn5.onclick = function() {
 
 }
 
+btn6.onclick = function() {
+
+  modal6.style.display = "block";
+
+}
+
+
 var span = document.getElementsByClassName("close")[0];
 var span1 = document.getElementsByClassName("close1")[0];
 var span2 = document.getElementsByClassName("close2")[0];
 var span3 = document.getElementsByClassName("close3")[0];
 var span4 = document.getElementsByClassName("close4")[0];
 var span5 = document.getElementsByClassName("close5")[0];
+var span6 = document.getElementsByClassName("close6")[0];
 
 span.onclick = function() {
 
@@ -119,9 +129,18 @@ span5.onclick = function() {
   modal5.style.display = "none";
 
 }
+
+span6.onclick = function() {
+
+  modal6.style.display = "none";
+
+}
+
+
+
 window.onclick = function(event) {
 
-  if (event.target == modal || event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5) {
+  if (event.target == modal || event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 ) {
 
     modal.style.display = 'none';
     modal1.style.display = 'none';
@@ -129,6 +148,8 @@ window.onclick = function(event) {
     modal3.style.display = 'none';
     modal4.style.display = 'none';
     modal5.style.display = 'none';
+    modal6.style.display = 'none';
+    
   }
 
 }
