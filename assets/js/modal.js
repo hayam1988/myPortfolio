@@ -85,6 +85,7 @@ btn6.onclick = function() {
 }
 
 
+
 var span = document.getElementsByClassName("close")[0];
 var span1 = document.getElementsByClassName("close1")[0];
 var span2 = document.getElementsByClassName("close2")[0];
@@ -138,6 +139,9 @@ span6.onclick = function() {
 
 
 
+
+
+
 window.onclick = function(event) {
 
   if (event.target == modal || event.target == modal1 || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 ) {
@@ -149,6 +153,7 @@ window.onclick = function(event) {
     modal4.style.display = 'none';
     modal5.style.display = 'none';
     modal6.style.display = 'none';
+    modal7.style.display = 'none';
     
   }
 
